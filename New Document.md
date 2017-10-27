@@ -36,7 +36,7 @@ ssh-keygen -t rsa -C 邮箱 连敲两次回车键
 git remote add origin_new 新的地址   
 git remote –v查看   
 git push origin_new master重新推送 
-***  
+***   
 ####5.从远程库克隆  
 要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。  
 Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
